@@ -55,7 +55,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
             // サーバーの状態をチェック
             try {
-                await fetch('http://localhost:5000/');　//http://localhost:5000/
+                await fetch('https://9645-240f-f1-8448-1-354f-7505-8d3f-64de.ngrok-free.app');　//http://localhost:5000/
             } catch (error) {
                 throw new Error('サーバーに接続できません。サーバーが起動しているか確認してください。');
             }

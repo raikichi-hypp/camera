@@ -55,7 +55,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
             // サーバーの状態をチェック
             try {
-                await fetch('http://localhost:5000/');
+                await fetch('http://localhost:5000/');　//http://localhost:5000/
             } catch (error) {
                 throw new Error('サーバーに接続できません。サーバーが起動しているか確認してください。');
             }
